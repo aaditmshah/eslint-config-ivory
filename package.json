@@ -1,0 +1,93 @@
+{
+  "name": "eslint-config-ivory",
+  "version": "0.1.0",
+  "description": "eslint config for the ivory style guide",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "ivory",
+    "styleguide",
+    "javascript",
+    "typescript"
+  ],
+  "homepage": "https://github.com/aaditmshah/eslint-config-ivory",
+  "bugs": "https://github.com/aaditmshah/eslint-config-ivory/issues",
+  "license": "MIT",
+  "author": "Aadit M Shah <aaditmshah@aadit.codes> (https://aadit.codes/)",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://aadit.codes/sponsor"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/aaditmshah"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/aaditmshah"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/aaditmshah"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://www.buymeacoffee.com/aaditmshah"
+    }
+  ],
+  "main": "./index.js",
+  "repository": "github:aaditmshah/eslint-config-ivory",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "test": "jest",
+    "prepare": "is-ci || husky install"
+  },
+  "devDependencies": {
+    "@jest/globals": "28.1.3",
+    "@next/eslint-plugin-next": "12.2.5",
+    "@typescript-eslint/eslint-plugin": "5.33.1",
+    "@typescript-eslint/parser": "5.33.1",
+    "ajv": "6.12.6",
+    "eslint": "8.21.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "3.4.2",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.8.3",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-unicorn": "43.0.2",
+    "husky": "8.0.1",
+    "is-ci": "3.0.1",
+    "jest": "28.1.3",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
+  },
+  "peerDependencies": {
+    "@next/eslint-plugin-next": "12.2.5",
+    "@typescript-eslint/eslint-plugin": "5.33.1",
+    "@typescript-eslint/parser": "5.33.1",
+    "eslint": "8.21.0",
+    "eslint-import-resolver-typescript": "3.4.2",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.8.3",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-unicorn": "43.0.2",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
