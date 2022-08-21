@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ivory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint config for the ivory style guide",
   "keywords": [
     "eslint",
@@ -37,7 +37,21 @@
       "url": "https://www.buymeacoffee.com/aaditmshah"
     }
   ],
-  "main": "./index.js",
+  "files": [
+    ".prettierrc.json",
+    "**/eslint.js",
+    "**/eslint-comments.js",
+    "**/import.js",
+    "**/jest.js",
+    "**/jsx-a11y.js",
+    "**/next.js",
+    "**/promise.js",
+    "**/react.js",
+    "**/react-hooks.js",
+    "**/typescript.js",
+    "**/unicorn.js"
+  ],
+  "main": "index.js",
   "repository": "github:aaditmshah/eslint-config-ivory",
   "scripts": {
     "lint": "eslint .",
