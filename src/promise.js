@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  plugin: ["promise"],
+  plugins: ["promise"],
   rules: {
     "promise/catch-or-return": ["error", { allowFinally: true }],
     "promise/no-return-wrap": "error",
